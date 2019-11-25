@@ -1,4 +1,4 @@
-# @zouzhiqiang/tang-vendor-webpack-plugin
+# tang
 
 tang,使用vue开发小程序
 
