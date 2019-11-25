@@ -1,0 +1,47 @@
+{
+  "name": "tang",
+  "version": "1.0.0",
+  "description": "tang,使用vue开发小程序",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "rm -R ./dist & cross-env webpack --config=./build/webpack.config.ts --env=development"
+  },
+  "keywords": [
+    "tang",
+    "vue",
+    "miniapp"
+  ],
+  "author": "465633678@qq.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@types/copy-webpack-plugin": "^5.0.0",
+    "@types/jest": "^24.0.19",
+    "@types/mini-css-extract-plugin": "^0.8.0",
+    "@types/webpack": "^4.39.5",
+    "@zouzhiqiang/tslint-config": "^0.0.4",
+    "@zouzhiqiang/vue": "^0.0.2",
+    "copy-webpack-plugin": "^5.0.4",
+    "cross-env": "^6.0.3",
+    "css-loader": "^3.2.0",
+    "jest": "^24.9.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "mpvue-webpack-target": "^1.0.3",
+    "ts-jest": "^24.1.0",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.4.1",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.6.4",
+    "vue": "^2.6.10",
+    "vue-loader": "^15.7.1",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "vuex": "^3.1.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
